@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Niagara</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Custom CSS -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
+   
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<script>
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.sidebar').css('min-height', windowHeight/4);
+  };
+  setHeight();
+  
+  function setWidth() {
+    windowWidth = $(window).innerWidth();
+    $('.sidebar').css('min-width', windowWidth);
+  };
+  setWidth();
+  
+  $(window).resize(function() {
+    setHeight();
+	setWidth();
+  });
+});
+</script>
+<style>
+	@font-face {
+	  font-family: 'npsrb';
+	  font-style: normal;
+	  font-weight: 100;
+	  src: url('fonts/npsrb.otf');
+	}
+	html,body{
+	
+		
+		width:320px;
+		height:480px;
+	}
+ .ourStory{
+	background: url("img/ourStorySample.png") no-repeat;
+    background-size: 100% 100%;
+   
+    
+ }
+ .places{
+	background: url("img/placesToVisitSample.png") no-repeat;
+    background-size: 100% 100%;
+    
+   
+ }
+ .touringMap{
+	background: url("img/touringMapSample.png") no-repeat;
+    background-size: 100% 100%;
+    
+   
+ }
+ .moreToKnow{
+	background: url("img/moreToKnowSample.png") no-repeat;
+    background-size: 100% 100%;
+    
+   
+ }
+ .sidebar{
+  @include box-sizing(border-box)
+  float: left
+  width: 33%
+  padding: 2em
+  background-color: #f8ca00
+ }
+ 
+ .container1 { 
+	position:relative; 
+}
+  #ex3_content { 
+	left:50%;
+	top:50%; 
+	transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+	position:absolute; 
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+section.div.div.a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+</style>
+<body id="page-top">
+
+	
+		
+	
+	<!-- Header -->
+    <section class="ourStory sidebar container1">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-12" id="ex3_content">
+                    <a href="our_story.html" style="text-decoration:none !important;"><center><font face="npsrb" size="5" color="FFFFFF">O</font><font face="npsrb" size="4" color="FFFFFF">UR</font> <font face="npsrb" size="5" color="FFFFFF">S</font><font face="npsrb" size="4" color="FFFFFF">TORY</font></center></a>
+                </div>
+            </div>
+		</div>	
+        
+    </section>
+	<section class="places sidebar container1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="ex3_content">
+                   <center><font face="npsrb" size="5" color="FFFFFF">P</font><font face="npsrb" size="4" color="FFFFFF">LACES TO</font> <font face="npsrb" size="5" color="FFFFFF"> V</font><font face="npsrb" size="4" color="FFFFFF">ISIT</font></center>
+                </div>
+			</div>
+		</div>
+    </section>
+	<section class="touringMap sidebar container1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="ex3_content">
+                    <center><font face="npsrb" size="5" color="FFFFFF">T</font><font face="npsrb" size="4" color="FFFFFF">OURING </font> <font face="npsrb" size="5" color="FFFFFF">M</font><font face="npsrb" size="4" color="FFFFFF">AP</font></center>    
+                </div>
+            </div>
+        </div>
+    </section>
+	<section class="moreToKnow sidebar container1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="ex3_content">
+                    <center><font face="npsrb" size="5" color="FFFFFF">M</font><font face="npsrb" size="4" color="FFFFFF">ORE TO</font> <font face="npsrb" size="5" color="FFFFFF"> K</font><font face="npsrb" size="4" color="FFFFFF">NOW</font></center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+	 <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+   
+    <!-- Custom Theme JavaScript -->
+   
+
+</body>
+
+</html>

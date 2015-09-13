@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Niagara</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Custom CSS -->
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
+   
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<script>
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.sidebar').css('min-height', windowHeight/4);
+  };
+  setHeight();
+  
+  function setHeight2() {
+    windowHeight = $(window).innerHeight();
+    $('.sidebar3').css('min-height', windowHeight/3);
+  };
+  setHeight2();
+  
+  function setWidth() {
+    windowWidth = $(window).innerWidth();
+    $('.sidebar').css('min-width', windowWidth);
+  };
+  setWidth();
+  
+  function setWidth2() {
+    windowWidth = $(window).innerWidth();
+    $('.sidebar2').css('min-width', windowWidth);
+  };
+  setWidth2();
+  
+  $(window).resize(function() {
+    setHeight();
+	setWidth();
+	setWidth2();
+	setHeight2();
+  });
+});
+</script>
+<style>
+	@font-face {
+	  font-family: 'npsrb';
+	  font-style: normal;
+	  font-weight: 100;
+	  src: url('fonts/npsrb.otf');
+	}
+	@font-face {
+	  font-family: 'frutiger';
+	  font-style: normal;
+	  font-weight: 100;
+	  src: url('fonts/Frutiger-Light.otf');
+	}
+	
+ .ourStory{
+	background: url("img/ourStorySample.png") no-repeat;
+    background-size: 100% 100%;
+   
+    
+ }
+ .blank{
+	background-color: #CED0D2;
+    background-size: 100% 100%;
+   
+    
+ }
+
+ .sidebar1{
+  @include box-sizing(border-box)
+  float: left
+  width: 33%
+  padding: 2em
+  background-color: #f8ca00
+ }
+ .sidebar2{
+  @include box-sizing(border-box)
+  float: left
+  width: 33%
+  padding: 2em
+ }
+ 
+ .container1 { 
+	position:relative; 
+}
+  #ex3_content { 
+	left:50%; 
+	top:50%; 
+	transform:translate(-50%,-50%); 
+	-webkit-transform:translate(-50%,-50%); 
+	position:absolute; 
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+</style>
+<body style="color: #000000;">
+	<!-- Header -->
+    <section class="ourStory sidebar container1">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-12" id="ex3_content">
+				
+                    <center><span><font face="npsrb" size="5" color="FFFFFF">O</font><font face="npsrb" size="4" color="FFFFFF">UR</font> <font face="npsrb" size="5" color="FFFFFF">S</font><font face="npsrb" size="4" color="FFFFFF">TORY</font></span></center>
+                </div>
+            </div>
+		</div>	
+    </section>
+	<section class="sidebar">
+        <div class="col-lg-12">
+			<table class="table" style="margin-bottom: 0; margin-top: 10px;">
+				<tr>
+					<td>
+						<font face="frutiger" color="000000">Stories of Natural Phenomenon, Power and
+					Industry, Borderland Crossing and rise of
+					Tourism and Recreation that communicate
+					the Niagara Falls National Heritage Area
+					sense of place</font>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<section class="sidebar2">
+        <div class="col-lg-12" style="background-color:#CED0D2; padding-top: 10px;padding-bottom: 10px;">
+			<center><a href="natural_phenomenon.html"><span><font face="npsrb" size="5" color="000000"> N</font><font face="npsrb" size="4" color="000000">ATURAL</font><font face="npsrb" size="5" color="000000"> P</font><font face="npsrb" size="4" color="000000">HENOMENON</font></span></a></center>	
+		</div>
+	</section>
+	<section class="sidebar2">
+        <div class="col-lg-12" style="background-color:#FFFFFF; padding-top: 10px;padding-bottom: 10px;">
+			<center><span><font face="npsrb" size="5"> P</font><font face="npsrb" size="4">OWER AND</font><font face="npsrb" size="5"> I</font><font face="npsrb" size="4">NDUSTRY</font></span></center>	
+		</div>
+	</section>
+    <section class="sidebar2">
+        <div class="col-lg-12" style="background-color:#CED0D2; padding-top: 10px;padding-bottom: 10px;">
+			<center><span><font face="npsrb" size="5">B</font><font face="npsrb" size="4">ORDERS</font></span></center>	
+		</div>
+	</section>
+	<section class="sidebar2">
+        <div class="col-lg-12" style="background-color:#FFFFFF; padding-top: 10px;padding-bottom: 10px;">
+			<center><span><font face="npsrb" size="5"> T</font><font face="npsrb" size="4">OURISM AND</font><font face="npsrb" size="5"> R</font><font face="npsrb" size="4">ECREATION</font></span></center>	
+		</div>
+	</section>
+	<section class="blank sidebar3 container1">
+        <div class="col-lg-12" style="background-color:#CED0D2;">
+				
+		</div>
+	</section>
+ 
+	 <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+   
+    <!-- Custom Theme JavaScript -->
+   
+
+</body>
+
+</html>
